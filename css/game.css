@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&family=Space+Grotesk:wght@400;500&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+ header {
+     background-image: url(/Assets/Illustrations/Game/Batgame1.png);
+     background-size: cover;
+     height: 110vh;
+ }
+
+ .heading{
+     position: relative;
+     padding: 200px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+ }
+
+ nav a {
+     color: #FFF;
+     font-size: 40px;
+     text-decoration: none;
+     padding-right: 20px;
+ }
+ nav a:nth-child(2){
+     text-decoration: underline;
+ }
+
+ .content1 {
+     margin-left: 400px;
+     font-size: 20px;
+     color: #FFF;
+ }
+ .right {
+     position: absolute;
+     right: 30px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color: #FFF;
+ }
+
+ h1{
+    font-family: 'Rajdhani', sans-serif;
+ }
+
+ main{
+     background-color: #000;
+     color: #FFF;
+ }
+
+ .niveau1{
+    padding: 100px 80px;
+ }
+
+ .niveau2{
+    padding: 100px 80px;
+ }
+ button{
+    margin: 40px 600px;
+    background-image: linear-gradient(to left, #b11313, #c54361, #c1749c, #b9a0bc, #c4c4c4);
+    width: 200px;
+    height: 60px;
+ }
+
+ footer{
+    text-align: center;
+    color: #FFF;
+    background-color: #000;
+}
+.cit{
+    padding: 200px 400px;
+    display: flex;
+    position: relative;
+}
+.haut{
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+.bas{
+    position: absolute;
+    bottom: 80px;
+    right: 450px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&family=Space+Grotesk:wght@400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+ header {
+     background-image: url(/Assets/Illustrations/Home/Bathome1.png);
+     background-size: cover;
+     height: 110vh;
+ }
+
+ .heading{
+     position: relative;
+     padding: 200px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+ }
+
+ nav a {
+     color: #FFF;
+     font-size: 40px;
+     text-decoration: none;
+     padding-right: 20px;
+ }
+ nav a:nth-child(1){
+     text-decoration: underline;
+ }
+
+ .content1 {
+     margin-left: 400px;
+     font-size: 20px;
+     color: #FFF;
+ }
+ .btn{
+     margin: 80px 400px;
+     display: flex;
+     justify-content: space-around;
+ }
+ .btn button{
+     border: none;
+     color: #ffff;
+    background-image: linear-gradient(to left, #b11313, #c54361, #c1749c, #b9a0bc, #c4c4c4);
+    width: 200px;
+    height: 60px;
+ }
+ .bat {
+     font-weight: bold;
+     font-size: 30px;
+     margin-left: 140px;
+ }
+ .right {
+     position: absolute;
+     right: 30px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color: #FFF;
+ }
+
+ h1{
+    font-family: 'Rajdhani', sans-serif;
+ }
+.section1 {
+    color: #fff;
+    background-color: #000;
+}
+ .image1{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .section3 {
+     color: #fff;
+    background-color: #000;
+}
+ .image2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.media{
+    display: flex;
+    justify-content: space-between;
+}
+.carte{
+    display: flex;
+}
+
+
+footer{
+    text-align: center;
+    color: #FFF;
+    background-color: #000;
+}
+.cit{
+    padding: 200px 400px;
+    display: flex;
+    position: relative;
+}
+.haut{
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+.bas{
+    position: absolute;
+    bottom: 80px;
+    right: 450px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* partie activé avec JS */
+ /* effet zoom à l'apparition */
+.zoom {
+    transform: scale(0);
+}
+.zoom-visible{
+    transform: scale(1);
+    transition: 1s;
+}
+
+  /* effet fondu */
+
+  .fondu {
+      opacity: 0;
+  }
+  .fondu-visible{
+      opacity: 1;
+      transition: 1s;
+  }
